@@ -41,8 +41,8 @@ try:
     with open("wifi_info.txt", "w") as f:
         for ssid, key_content in ssid_key_dict.items():
             # Format the output with a fixed width for SSID
-            formatted_line = f"{ssid.ljust(max_ssid_width)} : {key_content}\n"
-            f.write(formatted_line)
-    
+            formatted_line = f.write(f"{ssid.ljust(max_ssid_width)} : {key_content}\n")
+
 except subprocess.CalledProcessError as e:
     print("Error:", e)
+
