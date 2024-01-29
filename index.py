@@ -7,7 +7,7 @@ try:
     # Split the result into lines
     lines = result.splitlines()
 
-    # Initialize a dictionary to hold SSID names and their key content
+    # Initialize a dictionary to hold SSID names and keys
     ssid_key_dict = {}
 
     # Loop through each line in the output
