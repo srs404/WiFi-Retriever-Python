@@ -1,16 +1,15 @@
-# WiFi-Retriever-Python
-
-Retrieve Saved Wifi Passwords of Your Device.
-
 # Purpose
 
 Primarily for retrieving forgotten passwords that were saved in your device. But also to raise awareness on how simply people can be vulnerable and prone to attacks from cyber attackers of any source.
 
-# Usage
+## Usage
 
 Simply running the program will generate the Wifi Network Names (SSID) that are saved on your device and their password.
 
-# Explanation & Demonstration (Ongoing)
+- index.py (Main Executable File)
+- wifi_info.txt (Stored SSIDs along with Retrieved Passwords)
+
+## Explanation & Demonstration (Ongoing)
 
 [Medium](https://medium.com/@srs404) [YouTube](https://www.youtube.com/@SamSingularity)
 
